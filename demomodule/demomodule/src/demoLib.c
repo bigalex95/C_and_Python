@@ -29,7 +29,7 @@ unsigned long factorial(long n) {
 		return 1;
 	return (unsigned)n * factorial(n - 1);
 }
-
+//first try
 typedef unsigned int Color32;
 
 inline Color32 Color32Reverse(Color32 x)
