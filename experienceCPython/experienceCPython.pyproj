@@ -24,6 +24,13 @@
   <ItemGroup>
     <Compile Include="experienceCPython.py" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\superfast\superfast.vcxproj">
+      <Name>superfast</Name>
+      <Project>{e9441d0e-eb72-4cc0-b66d-235e5a92e103}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
